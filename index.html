@@ -22,13 +22,14 @@
             line-height: 100%;
             padding-top: 50px;
 
-            animation: bannerAni 2s linear infinite;
+            animation: bannerAni 10s linear infinite;
 
         }
 
         @keyframes bannerAni{
             0%{opacity: 0;}
-            100%{opacity: 1;}
+            50%{opacity: 1;}
+            100%{opacity: 0;}
         }
 
         .img{
@@ -41,12 +42,6 @@
             
             background-image: url("./img/img.png");
             background-size: cover;
-
-            animation: rotate_image 10s linear infinite;
-        }
-
-        @keyframes rotate_image{
-	        100% {transform: rotate(360deg);}
         }
 
         img{
